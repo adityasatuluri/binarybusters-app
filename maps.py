@@ -4,7 +4,7 @@ from folium.plugins import MarkerCluster
 import firebase_admin
 from firebase_admin import credentials, firestore
 
-cred = credentials.Certificate(r'D:\STUDY\PROJECTS\Freelance Projects\flood-prediction-app\test-13da9-firebase-adminsdk-astns-f7b4f3b9e4.json')
+cred = credentials.Certificate(r'test-13da9-firebase-adminsdk-astns-f7b4f3b9e4.json')
 if not firebase_admin._apps:
     # Initialize Firebase app if not already initialized
     firebase_admin.initialize_app(cred)
