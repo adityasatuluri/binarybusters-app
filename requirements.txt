@@ -1,0 +1,3 @@
+folium
+scikit-learn
+firebase_admin
